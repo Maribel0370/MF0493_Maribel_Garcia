@@ -1,0 +1,30 @@
+{
+  "name": "mf0493_maribel_garcia",
+  "version": "0.0.1",
+  "description": "Examen practico final",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maribel",
+  "license": "ISC",
+  "dependencies": {
+    "exemple_node_docker": "file:../mf0493_av_final",
+    "express": "^4.21.1",
+    "mf0493_maribel_garcia": "file:../mf0493_av_final"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maribel0370/MF0493_Maribel_Garcia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maribel0370/MF0493_Maribel_Garcia/issues"
+  },
+  "homepage": "https://github.com/Maribel0370/MF0493_Maribel_Garcia#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
